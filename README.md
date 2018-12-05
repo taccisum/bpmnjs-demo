@@ -1,6 +1,6 @@
-# my-project
+# bpmnjs-demo
 
-> A Vue.js project
+> 这是一个bpmn.js使用示例项目
 
 ## Build Setup
 
