@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Index from '@/components/Index'
 import SimpleViewer from '@/components/SimpleViewer'
 import SimpleModeler from '@/components/SimpleModeler'
+import Save from '@/components/Save'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/simple-modeler',
       name: 'SimpleModeler',
       component: SimpleModeler
+    },
+    {
+      path: '/save',
+      name: 'Save',
+      component: Save
     }
   ]
 })

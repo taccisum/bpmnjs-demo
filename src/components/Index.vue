@@ -8,7 +8,7 @@
         <router-link to="/simple-modeler">simple model</router-link>
       </li>
       <li>
-        <router-link to="/simple-modeler">simple model</router-link>
+        <router-link to="/save">save</router-link>
       </li>
     </ul>
   </div>
