@@ -23,10 +23,12 @@ export default {
     saveDiagram () {
       modeler.saveXML({ format: true }, function (err, xml) {
         if (err) {
-          alert('error! please check on console.')
+          alert('error! please check info on console.')
           console.log(err)
         }
         alert('success! please copy diagram content on console.')
+        // 仅做演示，所以只简单地打印到控制台
+        // 可以在这里做一些更友好的操作，比如导出文件之类的
         console.log(xml)
       })
     }
