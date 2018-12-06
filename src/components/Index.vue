@@ -28,7 +28,7 @@ export default {
     this.$store.dispatch('hide_home')
   },
   destroyed () {
-    this.$store.dispatch('show_home')
+    this.$store.dispatch('reset_home')
   }
 }
 </script>

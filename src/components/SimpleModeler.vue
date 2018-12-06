@@ -28,7 +28,7 @@ export default {
         console.log('something went wrong:', err)
       }
     })
-  },
+  }
 }
 </script>
 

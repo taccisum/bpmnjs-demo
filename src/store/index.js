@@ -2,17 +2,22 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 Vue.use(Vuex)
+
+var DEFAULT = true
 export default new Vuex.Store({
   strict: process.env.NODE_ENV !== 'production',
   state: {
-    show: false
+    show: DEFAULT
   },
   mutations: {
-    hide(state) {
+    hide (state) {
       state.show = false
     },
-    show(state) {
+    show (state) {
       state.show = true
+    },
+    reset (state) {
+      state.show = DEFAULT
     }
   },
   actions: {
@@ -21,6 +26,9 @@ export default new Vuex.Store({
     },
     show_home ({commit}) {
       commit('show')
+    },
+    reset_home ({commit}) {
+      commit('reset')
     }
-  },
+  }
 })
