@@ -6,9 +6,11 @@
       <li>
         <router-link to="/simple-viewer">simple viewer</router-link>
         <router-link to="/simple-modeler">simple model</router-link>
+        <router-link to="/save">save</router-link>
       </li>
       <li>
-        <router-link to="/save">save</router-link>
+        <label>plugins: </label>
+        <router-link to="/properties_panel">properties panel</router-link>
       </li>
     </ul>
   </div>

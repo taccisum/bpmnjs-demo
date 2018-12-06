@@ -4,6 +4,7 @@ import Index from '@/components/Index'
 import SimpleViewer from '@/components/SimpleViewer'
 import SimpleModeler from '@/components/SimpleModeler'
 import Save from '@/components/Save'
+import PropertiesPanel from '@/components/PropertiesPanel'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/save',
       name: 'Save',
       component: Save
+    },
+    {
+      path: '/properties_panel',
+      name: 'PropertiesPanel',
+      component: PropertiesPanel
     }
   ]
 })

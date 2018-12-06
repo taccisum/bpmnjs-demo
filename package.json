@@ -16,7 +16,10 @@
   "dependencies": {
     "bpmn-font": "^0.8.0",
     "bpmn-js": "^3.0.4",
+    "bpmn-js-properties-panel": "^0.28.2",
+    "camunda-bpmn-moddle": "^3.1.1",
     "diagram-js": "^3.0.1",
+    "diagram-js-minimap": "^1.3.0",
     "jquery": "^3.3.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
@@ -56,6 +59,8 @@
     "html-webpack-plugin": "^2.30.1",
     "jest": "^22.0.4",
     "jest-serializer-vue": "^0.3.0",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
     "nightwatch": "^0.9.12",
     "node-notifier": "^5.1.2",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
