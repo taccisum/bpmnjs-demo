@@ -75,18 +75,17 @@ export default {
 </script>
 
 <style src='bpmn-js-properties-panel/dist/assets/bpmn-js-properties-panel.css'></style>
-<style src='../assets/bpmn-demo.css'></style>
+<style scoped src='../assets/bpmn-demo.css'></style>
 
 <style scoped lang="less">
 .properties-panel-parent {
   position: absolute;
-  margin-top: 60px;
   top: 0;
   bottom: 0;
   right: 0;
   width: 260px;
   z-index: 10;
-  border: 1px solid #ccc;
+  border-left: 1px solid #ccc;
   overflow: auto;
   &:empty {
     display: none;

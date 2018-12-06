@@ -1,5 +1,7 @@
 <template>
-  <div id='canvas'></div>
+  <div class="content">
+    <div id='canvas'></div>
+  </div>
 </template>
 
 <script>
@@ -29,5 +31,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped src='../assets/bpmn-demo.css'></style>
+
+<style scoped>
+.content {
+  height: 500px;
+}
 </style>
+

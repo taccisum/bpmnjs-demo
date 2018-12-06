@@ -52,8 +52,8 @@ export default {
 }
 </script>
 
-<style src='../assets/bpmn-demo.css'/>
-<style>
+<style scoped src='../assets/bpmn-demo.css'></style>
+<style scoped >
 #canvas {
   height: 90%;
   margin-bottom: 20px;

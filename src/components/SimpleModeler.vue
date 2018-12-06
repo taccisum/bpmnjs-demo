@@ -28,8 +28,8 @@ export default {
         console.log('something went wrong:', err)
       }
     })
-  }
+  },
 }
 </script>
 
-<style src='../assets/bpmn-demo.css'/>
+<style scoped src='../assets/bpmn-demo.css'></style>
