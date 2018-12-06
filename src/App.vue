@@ -1,12 +1,18 @@
 <template>
   <div id="app">
+    <router-link v-if="show" to="/">首页</router-link>
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  computed: {
+    show () {
+      return this.$store.state.show
+    }
+  }
 }
 </script>
 

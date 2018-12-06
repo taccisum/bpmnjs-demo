@@ -23,6 +23,12 @@ export default {
     return {
       msg: 'Welcome to bpmn.js Demo App'
     }
+  },
+  created () {
+    this.$store.dispatch('hide_home')
+  },
+  destroyed () {
+    this.$store.dispatch('show_home')
   }
 }
 </script>
