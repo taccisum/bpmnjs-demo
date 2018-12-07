@@ -1,9 +1,11 @@
 <template>
   <div class="hello">
     <img id="logo" src="../assets/logo.png"/>
-    <h1>{{ msg }}</h1>
+    <h1>{{ title }}</h1>
+    <h2>{{ prompt }}</h2>
     <ul>
       <li>
+        <label>getting start: </label>
         <router-link to="/simple-viewer">simple viewer</router-link>
         <router-link to="/simple-modeler">simple model</router-link>
         <router-link to="/save">save</router-link>
@@ -21,7 +23,8 @@ export default {
   name: 'Index',
   data () {
     return {
-      msg: 'Welcome to bpmn.js Demo App'
+      title: 'Welcome to bpmn.js Demo App',
+      prompt: '选择你要查看的demo'
     }
   },
   created () {
@@ -33,7 +36,6 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1,
 h2 {
